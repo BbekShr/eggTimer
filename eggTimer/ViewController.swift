@@ -105,16 +105,6 @@ class ViewController: UIViewController {
         print("startButton Button tapped")
     }
     
-    
-//    @IBAction func startButton(_ sender: Any) {
-//
-//        timer.invalidate()
-//        seconds = 00
-//        timerView.text = timeString(time: TimeInterval(seconds))
-//        //runTimer()
-//        print("startButton Button tapped")
-//    }
-//
-//
+
 }
 
