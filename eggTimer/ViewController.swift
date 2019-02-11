@@ -39,6 +39,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
     }
     
 
@@ -99,9 +100,11 @@ class ViewController: UIViewController {
         seconds = 00
         timerView.text = timeString(time: TimeInterval(seconds))
         timer.invalidate()
+        
         //runTimer()
         print("startButton Button tapped")
     }
+    
     
 //    @IBAction func startButton(_ sender: Any) {
 //
