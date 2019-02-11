@@ -98,6 +98,7 @@ class ViewController: UIViewController {
         timer.invalidate()
         seconds = 00
         timerView.text = timeString(time: TimeInterval(seconds))
+        timer.invalidate()
         //runTimer()
         print("startButton Button tapped")
     }
