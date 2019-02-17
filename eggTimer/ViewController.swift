@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var timerView: UILabel!
     
     var seconds = 0
     var timer = Timer()
@@ -103,8 +101,6 @@ class ViewController: UIViewController {
         
         //runTimer()
         print("startButton Button tapped")
-    }
-    
-
+    }    
 }
 
